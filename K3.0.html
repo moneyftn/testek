@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Botões Redirecionadores</title>
+  <style>
+    body {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      color: red;
+      font-size: 24px;
+    }
+
+    .botao {
+      background-color: white;
+      color: blue;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Deseja Prazer?</h1>
+
+  <button class="botao" onclick="redirecionarSim()">Sim</button>
+  <button class="botao" onclick="redirecionarNao()">Não</button>
+
+  <script>
+    function redirecionarSim() {
+      window.location.href = 'https://www.youtube.com/watch?v=L4sbDxR22z4&ab_channel=CigarettesAfterSex';
+    }
+
+    function redirecionarNao() {
+      window.location.href = 'https://twitter.com/i/status/1668398858987098114';
+    }
+  </script>
+</body>
+</html>
